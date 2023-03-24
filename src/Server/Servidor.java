@@ -10,8 +10,8 @@ import java.util.ArrayList;
 public class Servidor {
 
     public static void main(String[] args) {
-        int porta = 1234;
-        String senha = "senha123";
+        int porta = 5000;
+        String senha = "12345";
         Servidor servidor = new Servidor(porta, senha);
     }
     private DatagramSocket servidor;

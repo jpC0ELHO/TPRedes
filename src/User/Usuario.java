@@ -12,7 +12,7 @@ import java.util.ArrayList;
 public class Usuario {
     public static void main(String[] args) throws UnknownHostException {
         InetAddress enderecoServidor = InetAddress.getByName("localhost");
-        int portaServidor = 12345;
+        int portaServidor = 5000;
 
         Usuario cliente = new Usuario(enderecoServidor, portaServidor);
         cliente.listarArquivos();
